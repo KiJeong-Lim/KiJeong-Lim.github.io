@@ -1,1 +1,25 @@
-"Hello World" 
+<html>
+    <head>
+
+        <title>Run PCalc</title>
+
+        <script type="text/javascript">
+        function runPCalc()
+        {
+            var shell = new ActiveXObject("WScript.Shell");                 
+            var appPCalc = "PCalc.exe\"";
+            shell.Run(appPCalc);
+        }        
+        </script>
+
+    </head>
+
+
+
+    <body>
+
+        <a href="javascript:runPCalc()">Run program</a>
+
+    </body>
+
+</html>
